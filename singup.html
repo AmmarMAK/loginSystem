@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Login</title>
+    <!-- Website Icon -->
+    <link rel="shortcut icon" href="images/login.svg" type="image/x-icon" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/css/all.min.css" />
+    <!-- Bootstrap CSS file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- my css file -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="d-flex justify-content-center align-items-center">
+    <div class="container  rounded mt-5 ">
+      <h1 class="text-primary text-center text-white mt-3">Smart Login System</h1>
+
+      <input
+        type="text"
+        class="form-control mt-4 bg-transparent text-white width "
+        placeholder="Enter your name"
+        id="newUser-name"
+      />
+      <input
+        type="email"
+        class="form-control mt-4 bg-transparent text-white  width"
+        placeholder="Enter your email"
+        id="newUser-email"
+      />
+      <input
+        type="password"
+        class="form-control mt-4 bg-transparent text-white width "
+        placeholder="Enter your password"
+        id="newUser-Password"
+      />
+
+        <div class="text-center mt-3">
+          <p class="d-none text-info" id="signup-success">Success</p>
+        </div>
+      <div class="login-button-div d-flex justify-content-center">
+      
+        <button
+          id="signup-button"
+          class="btn btn-outline-info border w-50 mt-3 mb-4"
+        >
+          Sign Up
+        </button>
+        
+      </div>
+      <div class="d-flex justify-content-center align-items-center">
+        <p class="text-white">
+          You have an account?<a href="index.html"> Sign in</a>
+        </p>
+      </div>
+    </div>
+    <!-- my JS file -->
+    <script src="javascript/javascript.js"></script>
+    <!-- Bootstrap JS file-->
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

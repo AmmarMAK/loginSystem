@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+  width: 40%;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid white;
+}
+
+#login-button {
+  font-size: 20px;
+}
+
+body {
+  background-color: #24353f;
+  height: 100vh;
+  background-image: url(../images/background-1.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white !important;
+}
+button {
+  transition: 0.5s;
+}
+
+button:hover {
+  color: white !important;
+}
+
+.width{
+    width: 90%;
+    margin: auto;
+}
